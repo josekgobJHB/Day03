@@ -6,14 +6,17 @@
 /*   By: josekgob <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 11:06:15 by josekgob          #+#    #+#             */
-/*   Updated: 2020/07/10 11:14:28 by josekgob         ###   ########.fr       */
+/*   Updated: 2020/07/10 17:42:19 by josekgob         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
- void ft_swap(int *a, int *b){
-				int temp;
-				temp=*a;
-				*a=*b;
-				*b=temp;
- };
+void	ft_swap(int *a, int *b)
+{
+
+				int		temp;
+
+				temp = *a;
+				*a= *b;
+				*b= temp;
+}
 

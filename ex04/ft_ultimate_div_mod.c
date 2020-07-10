@@ -6,13 +6,15 @@
 /*   By: josekgob <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 12:19:39 by josekgob          #+#    #+#             */
-/*   Updated: 2020/07/10 12:25:12 by josekgob         ###   ########.fr       */
+/*   Updated: 2020/07/10 17:54:47 by josekgob         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
- void ft_ultimate_div_mod(int *a, int *b){
-				int temp;
-				temp=*a;
-				*a=*a/(*b);
-				*b=temp%(*b);
+void ft_ultimate_div_mod(int *a, int *b)
+{
+				int		temp;
+
+				temp =*a;
+				*a = *a / (*b);
+				*b = temp % (*b);
 }
