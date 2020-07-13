@@ -1,28 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ft.c                                            :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: josekgob <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/10 10:44:08 by josekgob          #+#    #+#             */
-/*   Updated: 2020/07/13 11:18:30 by josekgob         ###   ########.fr       */
+/*   Created: 2020/07/13 10:23:49 by josekgob          #+#    #+#             */
+/*   Updated: 2020/07/13 10:41:00 by josekgob         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 
-void	ft_ft(int *nbr)
+int		ft_strlen(char	*str)
 {
-				*nbr = 42 ;
-}
+                int		counter;
 
-int main()
-{
-				int a;
-				
-				a=0;
-				ft_ft(&a);
-				printf("%d",a);
-
-
+                counter = 0;
+                while(str[counter])
+                {
+                                counter++;
+                }
+				return	(counter);
 }

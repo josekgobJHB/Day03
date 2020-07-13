@@ -1,28 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ft.c                                            :+:      :+:    :+:   */
+/*   ft_putscri.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: josekgob <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/10 10:44:08 by josekgob          #+#    #+#             */
-/*   Updated: 2020/07/13 11:18:30 by josekgob         ###   ########.fr       */
+/*   Created: 2020/07/13 11:40:48 by josekgob          #+#    #+#             */
+/*   Updated: 2020/07/13 11:47:23 by josekgob         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 
-void	ft_ft(int *nbr)
+void	ft_putchar(char	*str)
+
+void	ft_putstr(char	*str)
 {
-				*nbr = 42 ;
-}
+				int		counter;
 
-int main()
-{
-				int a;
-				
-				a=0;
-				ft_ft(&a);
-				printf("%d",a);
-
-
+				counter = 0;
+				while(str[counter])
+				{
+								ft_putchar(str[counter];
+								counter++;
+				}
 }
